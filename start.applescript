@@ -26,7 +26,6 @@ end tell
 # open the terminal in full screen mode and run Laravel Homestead
 delay 1.5
 tell application "Terminal"
-	do script "repo" in window 1
 	tell application "System Events" to set frontmost of process "Terminal" to true
 	tell application "System Events"
 		tell process "Terminal"
